@@ -1,5 +1,10 @@
 # Personal Finance Tracker
 
+<img width="692" height="736" alt="main menu" src="https://github.com/user-attachments/assets/3af4fa9e-f8a3-492d-ae2c-fe1d080b3e16" />
+
+
+
+
 ## Project Overview
 
 The Personal Finance Tracker is a JavaFx-based application developed to help users manage and monitor their personal finances. It allows users to record their income and expenses, organise transactions into categories, and gain insights into their spending habits through visual charts and financial summaries.
