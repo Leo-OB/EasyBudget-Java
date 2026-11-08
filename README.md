@@ -63,7 +63,45 @@ Also refer to README.md in Project files
 
 ## How to Use
 
-[WIP]
+1. Database Setup
+   - Start your local MySQL service.
+     
+2. Launching the Application
+
+   - Run EasyBudget.java using netbeans 8.2
+     
+     
+3. Application Workflow
+
+   Step 1: Authentication (Login / Register)
+
+   - Register: Enter a username and matching passwords to create an account
+   - Login: Sign in with your registered username and password
+
+   Step 2:Main menu
+
+     Once logged in, the Main Menu displays your real-time total net balance and provides navigation buttons to access all features:
+   
+   - Add Income
+   - Add Expense
+   - Transactions
+   - Finanacial Summary
+   - Categories
+   - Graphs
+
+Step 3: Adding Financial Entries
+
+- Add Income: Enter the amount, description/source, and select a predefined category (Salary / Wages, Business / Freelance, Investments, Gifts, Other).
+- Add Expenses: Enter the amount, description/type, and select a category (Bills / Fees, Health / Personal Care, Housing Utilities, Travel / Transport, Food / Groceries, Entertainment, Other).
+- Amounts are automatically validated and processed into the database.
+
+
+  Step 4: Tracking
+
+  - Transactions: View a formatted list of all logged transactions under your account.
+  - Categories: View aggregated monetary totals and detailed transaction drill-downs per category.
+  - Financial Summary: View total income, total expenses, net balance, and overspending warnings.
+  - Graphs: Display interactive JavaFX pie charts and percentage breakdown bars for visual budget analysis.
 
 
 ## Group Members
