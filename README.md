@@ -10,7 +10,21 @@ The objective of the EasyBudget project is to develop a personal finance managem
 
 ## Key Features
 
-[WIP]
+- User Security & Data Isolation: Implement registration and login authentication backed by a local MySQL database to store and isolate transaction records per user account.
+  
+- Transaction Entry: Record income and expense entries with specific amounts, descriptions, and pre-defined category assignments.
+  
+- Input Validation: Enforce form validation rules to block empty submissions, non-numeric inputs, and negative amount values.
+
+- Balance & Overspending Tracking: Calculate total income, expenses, and net balance in real time, featuring automated warning messages when the user is overspending.
+
+- Data Breakdown & Visualization: Provide financial summaries, itemized category drill-downs, and visual charts via JavaFX pie charts and formatted ASCII bar graphs.
+
+- Duplicate Username Validation: Queries existing MySQL user records before registering new users to prevent duplicate account creation.
+
+- Console & GUI Dual-Logging: Outputs debug messages and operational logs to the terminal while simultaneously updating JavaFX UI feedback banners and text areas.
+
+  
 
 ## Technologies Used
 
