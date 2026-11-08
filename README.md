@@ -22,7 +22,7 @@ The Personal Finance Tracker is a JavaFx-based application developed to help use
 
 ## Installation and Setup
 
-[WIP]
+Refer to Setup Folder Setup.md
 
 ## How to Use
 
@@ -33,7 +33,7 @@ The Personal Finance Tracker is a JavaFx-based application developed to help use
 [WIP]
 
 ## Group Members
-[WIP - add github names and contact details] <br>
+Cput SDN260S Group 19 Members: <br>
 Cleo Omar 	<br>
 Amaan Jappie 	<br>
 Chulumanco Mkosana <br>
