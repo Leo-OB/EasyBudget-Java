@@ -6,7 +6,7 @@ The Personal Finance Tracker is a JavaFx-based application developed to help use
 
 ## Project Objectives
 
-[WIP]
+The objective of the EasyBudget project is to develop a personal finance management application that allows users to track income and expenses, monitor account balances, and analyze spending habits using JavaFX GUI connected to a MySQL database. Designed around a multi-scene layout, the system features user registration and authentication to isolate individual financial records. It enables users to record transactions across structured categories, compute total income, expenses, and net balance alongside overspending alerts, inspect itemized category drop-downs, and visualize financial distribution trends using JavaFX pie charts and text-based percentage bar graphs
 
 ## Key Features
 
