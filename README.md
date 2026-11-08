@@ -56,9 +56,6 @@ Data flow within the system culminates in automated financial analysis and dual-
 
 
 
-
-
-
 ## Installation and Setup
 
 Refer to Setup Folder > SetupGuide.md for a visual guide on dependency installation and setup.
