@@ -22,7 +22,7 @@ The Personal Finance Tracker is a JavaFx-based application developed to help use
 
 ## Installation and Setup
 
-Refer to Setup Folder Setup.md
+Refer to Setup Folder > SetupGuide.md
 
 ## How to Use
 
