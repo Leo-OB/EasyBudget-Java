@@ -10,6 +10,7 @@ The project requires Java JDK 1.8.0_XXX, NetBeans IDE 8.2 and XAMPP.
 - **Option 2:** Install JDK 1.8.0_431 separately, then install NetBeans IDE 8.2 separately.
 
 Choose ONE option. You do not need to install both JDK versions.
+The below takes you through where and how to install the dependencies in order.
 <br>
 <br>
 <br>
@@ -33,11 +34,8 @@ Choose ONE option. You do not need to install both JDK versions.
 
 3. After installation, Netbeans should automatically connect to version JDK 1.8.0_111, if prompted choose that version
 
-<br>
-<br>
-<br>
 
-### 2. Java JDK 1.8.0_431 (Option 2)
+### 2. Java JDK 1.8.0_431 and seperate Netbeans 8.2 (Option 2)
 
 **Download:**
 
@@ -60,12 +58,13 @@ Choose ONE option. You do not need to install both JDK versions.
    ![Download JDK](../Imgs/JDK%201.8.0_431%20Screenshots/3.Download.png)
 
 4. Install Netbeans 8.2 using same link in Option 1, during installation, when prompted to choose JDK Java file, choose 1.8.0_431
-
-
+<br>
+<br>
+<br>
 ---
 
 
-## XAMPP Installation and Setup
+## Next XAMPP Installation and Setup
 
 Follow the steps below to install XAMPP, configure MySQL and import the EasyBudget database.
 * https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/
@@ -88,7 +87,7 @@ Follow the steps below to install XAMPP, configure MySQL and import the EasyBudg
 
 ![Step 4 - Select XAMPP 8.2.12](../Imgs/Xampp%20Screenshots/4.SearchSelect8.2.12.png)
 
-### Step 5: Download the XAMPP Installer
+### Step 5: Download and open the XAMPP Installer
 
 ![Step 5 - XAMPP Installer](../Imgs/Xampp%20Screenshots/5.XamppInstaller.png)
 
@@ -113,21 +112,25 @@ The recommended installation location used in this guide is:
 ![Step 9 - Installation](../Imgs/Xampp%20Screenshots/9.Installation.png)
 
 ### Step 10: Run XAMPP as Administrator
-Xampp MUST be ran as Administrator, either by right clicking the control pane .exe in files or searching up the application, right clicking and running as Administrator
+Launch the XAMPP Control Panel from your desktop or Start Menu (right-click and select Run as Administrator to ensure proper access rights).
+Xampp MUST be ran as Administrator.
 
 ![Step 10 - Run as Administrator](../Imgs/Xampp%20Screenshots/10RunAsAdmin.png)
 
 ### Step 11: Verify the XAMPP Control Panel
+Check that the feedback message says it was opened with administrative rights.
 
 ![Step 11 - Correct Display](../Imgs/Xampp%20Screenshots/11.CorrectDisplay.png)
 
 ### Step 12: Start MySQL and Access phpMyAdmin
+Click Start next to Apache and MySQL. Verify that both modules display a green highlight and show active port numbers (standard configuration: Apache on ports 80, 443 and MySQL on port 3306 ). Click the Admin Button next to mySQL to open up your webbrowser and phpmyadmin
 
 ![Step 12 - Admin MySQL](../Imgs/Xampp%20Screenshots/12.AdminMysql.png)
 
 ### Step 13: Create the EasyBudget Database
 
-Create a new database named `easybudget` in phpMyAdmin.
+Create a new database named `easybudget` in phpMyAdmin, set the collation drop-down to "utf8mb4_general_ci" , and click Create.
+First click New, shown on the left and name the database and collation. This example the database was already created and appears below.
 
 ![Step 13 - Create Database](../Imgs/Xampp%20Screenshots/13.CreateDatabase.png)
 
@@ -139,8 +142,8 @@ Select the newly created database and navigate to the Import tab.
 
 ### Step 15: Choose the EasyBudget SQL File
 
-Locate and select the `easybudget.sql` file included in the project's database folder.
-EasyBudget>database, Also refer to Projects readme.md file found in project folder for where to accesss and find easybudget.sql
+Click "ChooseFile", Locate and select the `easybudget.sql` file included in the project's database folder, scroll down, and click Import (or Go)
+EasyBudget>database, Also refer to Projects readme.md file found in project folder for where to accesss and find easybudget.sql.
 
 ![Step 15 - Choose File](../Imgs/Xampp%20Screenshots/15.ChooseFile.png)
 
@@ -155,5 +158,13 @@ Click the Import/Go button to execute the SQL file and create the required datab
 Confirm that the EasyBudget database and its tables have been successfully created in phpMyAdmin.
 
 ![Step 17 - Verify Database](../Imgs/Xampp%20Screenshots/17.Verify.png)
-
+<br>
+<br>
+<br>
 ---
+
+## Open and Run the Project in Netbeans
+1. Open NetBeans IDE 8.2.
+2. Select File > Open Project and navigate to the EasyBudget Directory.
+3. Ensure your JDK 1.8 is set as the default platform for the project.
+4. Build and Run the project.
