@@ -1,45 +1,78 @@
-# How to install dependencies and run Easy Budget
+# How to Install dependencies and run EasyBudget
 
-## Required Dependencies
+## First Install Required Dependencies
 
-### 1. Java JDK 1.8.0 (Choose ONE of the following options)
+The project requires Java JDK 1.8.0_XXX, NetBeans IDE 8.2 and XAMPP.
 
-**Option 1: JDK 1.8.0_111 (64-bit Windows)**
+**Important:** There are two options for installing Java and NetBeans:
+
+- **Option 1:** Install the combined NetBeans IDE 8.2 and JDK 1.8.0_111 installer. This installs both together.
+- **Option 2:** Install JDK 1.8.0_431 separately, then install NetBeans IDE 8.2 separately.
+
+Choose ONE option. You do not need to install both JDK versions.
+<br>
+<br>
+<br>
+
+### 1. Combined NetBeans 8.2 and JDK installer: (Option 1)
+
+**Download:**
 
 * https://archive.org/download/jdk-8u111-nb-8_2
+* Download the 64-bit Windows installer, which includes both NetBeans IDE 8.2 and JDK 1.8.0_111.
 
-**Option 2: JDK 1.8.0_431 (64-bit Windows)**
+**Installation instructions:**
+
+1. Search for NetBeans IDE 8.2 and JDK 1.8.0_111 in your brower, click the website or url shown below.
+
+   ![Search for NetBeans](../Imgs/Netbeans%20IDE%208.2%20and%20JDK%201.8.0_111%20Screenshots/1.SearchVer.png)
+
+2. Download and save the combined installer.
+
+   ![Save installer](../Imgs/Netbeans%20IDE%208.2%20and%20JDK%201.8.0_111%20Screenshots/2.SaveNetbeansAndJDK.png)
+
+3. After installation, Netbeans should automatically connect to version JDK 1.8.0_111, if prompted choose that version
+
+<br>
+<br>
+<br>
+
+### 2. Java JDK 1.8.0_431 (Option 2)
+
+**Download:**
 
 * https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
-* Under the heading "Java SE Development Kit 8u431", download the 64-bit Windows installer:
+* Under the heading "Java SE Development Kit 8u431", download:
   `jdk-8u431-windows-x64.exe`
 
-### 2. NetBeans IDE 8.2
+**Installation instructions:**
 
-* https://archive.org/download/jdk-8u111-nb-8_2
-* Download the 64-bit Windows version (this contains both NetBeans IDE 8.2 and JDK 1.8.0_111).
+1. Search for JDK 8u431 on the Oracle website.
 
-### 3. XAMPP
+   ![Search for JDK](../Imgs/JDK%201.8.0_431%20Screenshots/1.SearchJdk.png)
 
-* https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/
-* Download the installer titled:
-  `xampp-windows-x64-8.2.12-0-VS16-installer.exe`
+2. Scroll down to locate the JDK 8u431 downloads under the heading "Java SE Development Kit 8u431".
 
----
+   ![Locate JDK download](../Imgs/JDK%201.8.0_431%20Screenshots/2.Scroll.png)
 
-## Guide to Install Required JDK Versions and NetBeans Version
+3. Download the 64-bit Windows installer `jdk-8u431-windows-x64.exe`.
 
-Follow the installation instructions for the selected JDK version and NetBeans IDE 8.2.
+   ![Download JDK](../Imgs/JDK%201.8.0_431%20Screenshots/3.Download.png)
 
-Make sure that the JDK is installed correctly before opening the EasyBudget project in NetBeans.
+4. Install Netbeans 8.2 using same link in Option 1, during installation, when prompted to choose JDK Java file, choose 1.8.0_431
+
 
 ---
+
 
 ## XAMPP Installation and Setup
 
 Follow the steps below to install XAMPP, configure MySQL and import the EasyBudget database.
+* https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/
+* Download the installer:
+  `xampp-windows-x64-8.2.12-0-VS16-installer.exe`
 
-### Step 1: Search for XAMPP
+### Step 1: Search for XAMPP in your brower, click following url/website:
 
 ![Step 1 - Search for XAMPP](../Imgs/Xampp%20Screenshots/1.SearchXampp.png)
 
@@ -47,7 +80,7 @@ Follow the steps below to install XAMPP, configure MySQL and import the EasyBudg
 
 ![Step 2 - More Downloads](../Imgs/Xampp%20Screenshots/2.MoreDownloads.png)
 
-### Step 3: Select XAMPP for Your Operating System
+### Step 3: Select XAMPP for Your Operating System, Windows in this case
 
 ![Step 3 - Choose XAMPP for OS](../Imgs/Xampp%20Screenshots/3.ChooseXamppForOS.png)
 
@@ -71,7 +104,7 @@ Follow the steps below to install XAMPP, configure MySQL and import the EasyBudg
 
 The recommended installation location used in this guide is:
 
-`C:\xampp`
+`C:\xampp` !!This Location MUST be used, will cause errors if installed in programfiles or different location!!
 
 ![Step 8 - Installation Location](../Imgs/Xampp%20Screenshots/8.InstallationLocation.png)
 
@@ -80,6 +113,7 @@ The recommended installation location used in this guide is:
 ![Step 9 - Installation](../Imgs/Xampp%20Screenshots/9.Installation.png)
 
 ### Step 10: Run XAMPP as Administrator
+Xampp MUST be ran as Administrator, either by right clicking the control pane .exe in files or searching up the application, right clicking and running as Administrator
 
 ![Step 10 - Run as Administrator](../Imgs/Xampp%20Screenshots/10RunAsAdmin.png)
 
@@ -106,6 +140,7 @@ Select the newly created database and navigate to the Import tab.
 ### Step 15: Choose the EasyBudget SQL File
 
 Locate and select the `easybudget.sql` file included in the project's database folder.
+EasyBudget>database, Also refer to Projects readme.md file found in project folder for where to accesss and find easybudget.sql
 
 ![Step 15 - Choose File](../Imgs/Xampp%20Screenshots/15.ChooseFile.png)
 
