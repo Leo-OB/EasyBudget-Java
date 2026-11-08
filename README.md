@@ -1,2 +1,44 @@
-# EasyBudget-Java
-EasyBudget is a Java-based Personal Finance Tracker developed as a group project. It helps users manage their personal finances by recording income and expenses, categorising transactions, monitoring spending habits, and visualising financial activity through simple charts and summaries.
+# Personal Finance Tracker
+
+## Project Overview
+
+The Personal Finance Tracker is a JavaFx-based application developed to help users manage and monitor their personal finances. It allows users to record their income and expenses, organise transactions into categories, and gain insights into their spending habits through visual charts and financial summaries.
+
+## Project Objectives
+
+[WIP]
+
+## Key Features
+
+[WIP]
+
+## Technologies Used
+
+[WIP]
+
+## System Design
+
+[WIP]
+
+## Installation and Setup
+
+[WIP]
+
+## How to Use
+
+[WIP]
+
+## Testing
+
+[WIP]
+
+## Group Members
+[WIP - add github names and contact details] <br>
+Cleo Omar 	<br>
+Amaan Jappie 	<br>
+Chulumanco Mkosana <br>
+JP Kalenda Tambuy Kitambala <br>
+Cleve Ian Williams <br>
+Glory Olamide Joseph <br>
+Zanele Ester Mangane <br>
+Nomagugu Alisa Dube <br>
