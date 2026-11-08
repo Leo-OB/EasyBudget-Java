@@ -61,15 +61,13 @@ Data flow within the system culminates in automated financial analysis and dual-
 
 ## Installation and Setup
 
-Refer to Setup Folder > SetupGuide.md
+Refer to Setup Folder > SetupGuide.md for a visual guide on dependency installation and setup.
+Also refer to README.md in Project files
 
 ## How to Use
 
 [WIP]
 
-## Testing
-
-[WIP]
 
 ## Group Members
 Cput SDN260S Group 19 Members: <br>
